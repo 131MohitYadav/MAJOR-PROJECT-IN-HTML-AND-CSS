@@ -171,6 +171,7 @@ body {
   
   .btn_1 button {
     padding: 12px 24px;
+    background-color: transparent;
     background-color:red;
     color:white;
     font-weight: bold;
@@ -193,6 +194,7 @@ body {
  gap: 40px;
     padding: 20px;
     justify-content: center;
+    transition: all 0.6 ease;
     
 
   }
@@ -204,6 +206,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: white;
+    transition: all 0.3 ease;
 
     
   }
@@ -293,6 +296,9 @@ body {
     
     
   }
+  .cont_11 p:hover{
+    color: red;
+  }
 
   .par_11{
     
@@ -361,12 +367,22 @@ body {
     
     
 }
+
+.first li{
+  color: red;
+}
 .nav_15 ul{
   display: flex;
+  font-size: 20px;
   gap: 40px;
   list-style: none;
   margin-top: 35px;
   margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.nav_15 li:hover{
+  color: red;
 }
 
 .header_15 h1{
@@ -402,13 +418,21 @@ body {
 
 .content_15 p {
     margin-bottom: 20px;
+
 }
 
 .content_15 button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    padding: 12px 30px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 18px;
+    font-weight: bold;
+    
+}
+
+.content_15 button:hover{
+  background-color: red;
+  color: white;
+  
 }
