@@ -436,3 +436,180 @@ body {
   color: white;
   
 }
+
+.container_20 {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.container_20 h2{
+  font-size: 20px;
+  margin: 20px;
+}
+
+.container_20 p{
+  font-size: 35px;
+  margin: 20px;
+}
+.container_20
+.product_20 {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.product_20 img {
+  border: 3px solid black;
+  border-radius: 18px;
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn_20{
+  background-color:red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 12px 30px;
+  font-weight: bold;
+
+}
+.btn_20:hover{
+  color:black;
+  background-color:white;
+}
+
+.container_21 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.image_21 {
+  width: 40%; /* Adjust width as needed */
+}
+
+.image_21 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+
+}
+
+.text_21 {
+  width: 50%; 
+  
+}
+
+.text_21 p{
+  margin: 15px 0px;
+  font-size: 18px;
+}
+
+.button_21 {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: red; 
+  color: white;
+  text-decoration: none;
+  border-radius: 18px; 
+  font-weight: bold;
+}
+
+.button_21:hover{
+  color:black;
+  background-color:white;
+}
+
+
+.container_25 {
+  text-align: center;
+  padding: 50px;
+  max-width: 100%;
+  display: inline block;
+  
+}
+
+.container_25 h1,p{
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 40px;
+
+  
+}
+.container_25 h1{
+  font-size: 50px;
+}
+
+
+.container_25 p{
+  font-size: 20px;
+  
+}
+.buttons_25{
+  text-align: right;
+}
+
+
+
+.btn_25 {
+  background-color:white; 
+  color: black;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 22px;
+  gap: 3px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.btn_25:hover{
+  color:white;
+  background-color: red;
+}
+
+#btn_30{
+  background-color:white; 
+  color:black;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 22px;
+  
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+#btn_30{
+  background-color: red;
+  color: white;
+}
+
+.benefits_25 {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  
+  
+}
+
+.benefit_25 {
+  text-align: center;
+  padding: 40px;
+  border-radius: 18px;
+  
+  width: 30%;
+  background-color:white;
+}
+
+.benefit_25 img {
+  width: 50px;
+  margin-bottom: 15px;
+}
