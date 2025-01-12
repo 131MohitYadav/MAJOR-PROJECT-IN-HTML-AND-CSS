@@ -613,3 +613,76 @@ body {
   width: 50px;
   margin-bottom: 15px;
 }
+/* 
+Need Help */
+
+
+
+.support_container_30 {
+  padding: 20px;
+  text-align: center;
+}
+
+.support_title_30 {
+  font-size: 2.5rem;
+  color: #222;
+  text-align: left;
+  margin-left: 220px;
+}
+
+.support_subtitle_30 {
+  font-size: 20px;
+  color: #030202;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+}
+
+.support_grid_30 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.support_card_30 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card_title_30 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.card_description_30 {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card_link_30 {
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.link{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.para_30{
+  margin: 20px;
+  text-align: center;
+}
+
