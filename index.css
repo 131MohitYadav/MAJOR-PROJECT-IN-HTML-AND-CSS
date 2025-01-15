@@ -70,11 +70,16 @@ body {
      display: none;
      flex-direction: column;
      position: absolute;
-     
+     padding: 20px;
+     line-height: 1.6em;
      top: 60px;
      left: 0;
      width: 100%;
      background: #fff;
+  }
+
+  .navbar ul:hover{
+    color: red;
   }
   .navbar .actions{
     display: none;
