@@ -188,8 +188,8 @@ body {
 .slider{
     height: 100vh;
     width: 100%;
-    background-image: url(first.jpg);
-    height: 650px;
+    background-image: url(republic\ day.jpg);
+    height: 620px;
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: slider;
@@ -201,21 +201,21 @@ body {
 @keyframes slider {
 
     25%{
-        background-image:url(first.jpg);
-        height: 650px;
+        background-image:url(republic\ day.jpg);
+        height: 620px;
         
     }
     50%{
         background-image: url(second.jpg);
-        height: 650px;
+        height: 620px;
     }
     75%{
     background-image: url(third.jpg);
-    height: 650px;
+    height: 620px;
 }
 100%{
     background-image: url(fourth.jpg);
-    height: 650px;
+    height: 620px;
 }
 
 
@@ -347,10 +347,10 @@ body {
     
   }
 
-  /* .buttons_11 button:hover{
+  .buttons_11 button:hover{
     color: white;
     background-color: red;
-  } */
+  }
   
   #btn_13{
     padding: 8px 20px;
@@ -362,11 +362,12 @@ body {
 
   #btn_13 a{
     text-decoration: none;
-    color: white;
+  color: white;
   }
 
   #btn_13 a:hover{
     color: black;
+    background-color: white;
   }
   #btn_13:hover{
     background-color: rgb(255, 255, 255);
@@ -631,6 +632,8 @@ body {
   margin: 15px 0px;
   font-size: 18px;
 }
+
+
 
 .button_21 {
   display: inline-block;
