@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
     
 }
 
@@ -962,6 +963,11 @@ input[type="radio"] {
   display: none;
 }
 
+.step-title_50{
+  color: green;
+  font-size: 30px;
+}
+
 #step1_50:checked~.step-content_50#step1-content_50,
 #step2_50:checked~.step-content_50#step2-content_50,
 #step3_50:checked~.step-content_50#step3-content_50 {
@@ -1000,7 +1006,8 @@ input[type="radio"] {
 
 .success-text_50 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px;
+  color: red;
 }
 
 .btn-home_50 {
